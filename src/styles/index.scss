@@ -1,0 +1,17 @@
+@use "./reset";
+@use "./element.scss";
+
+.no-drag {
+  -webkit-user-drag: none; /* 禁止拖拽 */
+  -khtml-user-drag: none; /* 禁止拖拽 */
+  -moz-user-drag: none; /* 禁止拖拽 */
+  -o-user-drag: none; /* 禁止拖拽 */
+  user-drag: none; /* 禁止拖拽 */
+}
+
+.no-drag {
+  -webkit-user-select: none; /* 禁止选中 */
+  -moz-user-select: none; /* 禁止选中 */
+  -ms-user-select: none; /* 禁止选中 */
+  user-select: none; /* 禁止选中 */
+}
